@@ -28,13 +28,14 @@ const Feed = () => {
         }}
       >
         <Sidebar
+          className=""
           selectedCategory={selectedCategory}
           setselectedCategory={setselectedCategory}
         />
         <Typography
-          className="copyright"
+          className="hidden text-white md:block"
           varient="body2"
-          sx={{ mt: 1.4, color: "#fff" }}
+          sx={{ mt: 1.4 }}
         >
           Copyright 2023 MERN
         </Typography>
